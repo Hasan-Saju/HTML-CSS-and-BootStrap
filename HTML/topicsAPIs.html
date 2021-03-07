@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location</title>
+</head>
+
+<body>
+
+    <!-- Location API -->
+    <h1 id="empty"></h1>
+    <button type="button" onclick="mylocation()">Show Location</button>
+
+    <script>
+
+        var header = document.getElementById("empty");
+
+        function mylocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showLocation);
+            }
+        }
+
+        function showLocation(position) {
+            header.innerHTML = "Longitude: " + position.coords.longitude + " Latitude: " + position.coords.latitude;
+        }
+    </script>
+
+    <br>
+    <hr>
+    <!-- drag and drop -->
+    <p draggable="true"> This is a draggable paragraph.</p>
+
+</body>
+
+</html>

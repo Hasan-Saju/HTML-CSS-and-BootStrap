@@ -1,0 +1,48 @@
+/* shob body tag styles */
+body
+{
+    /* background-color: rgb(159, 208, 236); */
+    /* border: 2px solid blueviolet; */
+    background-image: url("/image/techImage.jpg");
+    background-size: 1300px 750px ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background: url(); */
+}
+
+p
+{
+    /* 4 th one opacity */
+color: rgb(255, 255, 255,1);
+}
+
+h2
+{
+color: crimson;
+}
+/* design with id */
+#secondParagraph
+{
+    color: green;
+}
+/* design with class */
+.ninja
+{
+    border: 1px solid red;
+}
+
+/* can be designed together */
+/* 
+h1,h2,p
+{
+
+}
+*/
+
+h1
+{
+    /* block ke inline korlam */
+    display: inline;
+    color: white;
+    border: 3px white dotted;
+}

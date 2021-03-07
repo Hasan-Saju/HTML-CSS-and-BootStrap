@@ -1,0 +1,21 @@
+p
+{
+    /* shob paragraph tag er jonno applicable until we change */
+   color: brown;
+   background-color: aquamarine;
+   font-style: italic; 
+}
+
+#secondParagraphTag
+{
+    color: white;
+    background-color: black;
+}
+
+
+table,th,td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;  /* box er element er ashe pashe faka */
+}

@@ -1,0 +1,16 @@
+h3
+{
+    text-align: center;
+}
+
+form
+{
+    text-align: center;
+}
+
+/* padding mane vitore jayga ney, margin baire */
+input
+{
+    padding: 10px;
+    margin: 5px;
+}
